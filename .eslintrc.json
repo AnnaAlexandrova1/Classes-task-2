@@ -1,12 +1,12 @@
 {
   "extends": "airbnb-base",
-   /*"parser": "@babel/eslint-parser",*/
   "env": {
      "es6": true,
      "browser": true,
      "jest": true
   },
   "rules": {
+    "max-classes-per-file": "off",
     "no-restricted-syntax": [
       "error",
       "LabeledStatement",
